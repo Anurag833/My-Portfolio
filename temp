@@ -1,0 +1,50 @@
+<h2><span class="highlight">UI</span>&<span class="highlight">UX</span> Designer</h2>
+prevous pink color #ff69b4
+navv bg rgba(255, 255, 255, 0.05)
+background: linear-gradient(to right, #2b0035, #4e0063);
+
+project 
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: #2b0035;
+  border-radius: 15px;
+  padding: 20px;
+  border: 4px solid #fff;
+  box-shadow: 0 0px 25px #e2e2e2;
+  transition: transform 0.3s;
+}
+
+
+
+old certificte sectio 
+<section class="certificate-section">
+    <h2 class="section-title">Certificates</h2>
+    <div class="cert">
+      <div class="carousel">
+        <button id="prev" class="nav-btn">&#8249;</button>
+        <div class="cert-container" id="certContainer">
+          <!-- Certificate items -->
+          <img src="cert1.jpg" class="cert-item" />
+          <img src="cert2.jpg" class="cert-item" />
+          <img src="cert3.jpg" class="cert-item" />
+          <img src="cert4.jpg" class="cert-item" />
+          <img src="cert5.jpg" class="cert-item" />
+          <img src="cert6.jpg" class="cert-item active" />
+          <img src="cert7.jpg" class="cert-item" />
+          <img src="cert8.jpg" class="cert-item" />
+          <img src="cert9.jpg" class="cert-item" />
+          <img src="cert10.jpg" class="cert-item" />
+          <img src="cert11.jpg" class="cert-item" />
+        </div>
+        <button id="next" class="nav-btn">&#8250;</button>
+      </div>
+    </div>
+  </section>
+
