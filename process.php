@@ -37,8 +37,8 @@ try {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'anuragpal.portfolio@gmail.com'; // Your Gmail
-    $mail->Password = 'femsybjdidqnucay';   // Your Gmail App Password
+    $mail->Username = 'xxxx'; // Your Gmail
+    $mail->Password = 'xxxxx';   // Your Gmail App Password
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
 
@@ -50,7 +50,7 @@ try {
     $mail->Body    = "Hi $first_name,\n\nThanks for reaching out!\nWe’ve received your message and will get back to you within 24–48 hours.\n\nRegards,\nAnurag";
 
     $mail->send();
-    echo "<h2><center>Thank you! Your message has been submitted and confirmation email sent.</center></h2>";
+    echo "<h2><center>Thank you! Your message has been submitted and a confirmation email has been sent.</center></h2>";
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
